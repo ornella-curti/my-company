@@ -1,0 +1,52 @@
+header{
+    background: #fff;
+    border: 1px solid rgb(230,230,230);
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: .75rem 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.menu {
+    width: 100%;
+    max-width: 992px;
+    list-style: none;
+    color: #102C46;
+    padding: 0;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 1.5rem;
+    color: #102C46;
+}
+
+.menu li:first-child {
+    margin-left: 0;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu a {
+    font-size: 1rem;
+    color: #000;
+    opacity: .5;
+    font-weight: 100;
+    transition: all ease-in-out 300ms;
+}
+
+.menu a:hover {
+    opacity: 1;
+    color: #62C2C0;
+}

@@ -1,0 +1,60 @@
+.btn-blue {
+    background-color: #0e3150;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    padding: .6rem 2rem;
+    border-radius: 40px;
+    display: inline-block;
+    margin-top: 1.5rem;
+}
+
+.btn-blue:hover {
+    background-color: #87a8d0;
+}
+
+h2 + .btn-blue {
+    margin-top: 0;
+}
+
+/* buttons footer */
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-basis: 50px;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-inline li {
+    background-color: #0e3150;
+    display: inline-block;
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    margin-right: 15px;
+}
+
+.list-inline i {
+    color: #fff;
+}
+
+.list-inline li:hover {
+    background-color: #87a8d0;
+}
+
+/* Mobile display */
+@media (max-width: 760px) {
+    .btn-blue{
+        margin:2rem 2rem;
+    }

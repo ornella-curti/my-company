@@ -1,0 +1,43 @@
+.card {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    margin: 10px;
+    flex-basis: auto;
+    flex-grow: 1;
+}
+
+.card img {
+    width:100px;
+    border-radius: 50%;
+    width: 60px;
+    border: 1px solid;
+    border-color: rgba(230,230,230);
+}
+
+.card h3 {
+    font-size: 20px;
+    padding-left: 20px;
+    flex-grow: 1;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#avatar-circle {
+    border-radius: 50%;
+    width: 200px;
+    border: 1px solid;
+    border-color: rgba(230,230,230);
+}
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

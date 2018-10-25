@@ -13,13 +13,12 @@
     background-color: #87a8d0;
 }
 
-h2 + .btn-blue {
+h2+.btn-blue {
     margin-top: 0;
 }
 
 /* buttons footer */
-
-.flex{
+.flex {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -55,6 +54,6 @@ h2 + .btn-blue {
 
 /* Mobile display */
 @media (max-width: 760px) {
-    .btn-blue{
-        margin:2rem 2rem;
+    .btn-blue {
+        margin: 2rem 2rem;
     }

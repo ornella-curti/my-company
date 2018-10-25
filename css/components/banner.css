@@ -26,7 +26,7 @@
 
 .banner h2 {
     font-size: 1.5rem;
-    font-weight: lighter !important;
+    font-weight: lighter;
     opacity: 0.2rem;
     margin-bottom: 1.7rem;
 }

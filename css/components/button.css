@@ -43,6 +43,9 @@ h2+.btn-blue {
     line-height: 3.5rem;
     margin-right: 15px;
 }
+.list-inline li:last-child {
+    margin-right: 0;
+}
 
 .list-inline i {
     color: #fff;

@@ -24,6 +24,7 @@
 
 .image:hover {
   opacity: 0.6;
+  filter:drop-shadow(8px 8px 5px gray);
 }
 
 
@@ -48,6 +49,10 @@
     display: flex;
     justify-content: space-between;
 }
+.infos-flex p {
+    margin-right: 20px;
+}
+
 
 /*Travels section*/
 

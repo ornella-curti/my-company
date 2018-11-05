@@ -11,37 +11,37 @@
 }
 
 /* Homepage image article*/
-.grid-image {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    flex-grow: 1;
-}
 
 .grid-image img {
-    margin: 10px 0px;
-    border-radius: 6px;
-    width: 300px;
-    height: 400px;
+    margin: .5rem;
+    width: calc(50% - .65rem);
+    border-radius: .5rem;
 }
 
-/*HOVER IMAGE*/
-
-.image {
-  transition: .4s ease;
+@media (min-width: 768px) {
+    .grid-image img {
+        margin: 1rem;
+        width: calc(50% - 1.2rem);
+    }
 }
 
-.image:hover {
-  opacity: 0.6;
+.grid-image img:nth-child(odd) {
+    margin-left: 0;
+}
+
+.grid-image img:nth-child(even) {
+    margin-right: 0;
 }
 
 /*About me section*/
+
 .infos-flex {
     display: flex;
     justify-content: space-between;
 }
 
 /*Travels section*/
+
 .img-article {
     display: flex;
     flex-wrap: wrap;
@@ -53,3 +53,4 @@
     border-radius: 6px;
     width: 100%;
     height: 600px;
+}

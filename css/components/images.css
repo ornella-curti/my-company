@@ -18,6 +18,15 @@
     border-radius: .5rem;
 }
 
+.image {
+  transition: .4s ease;
+}
+
+.image:hover {
+  opacity: 0.6;
+}
+
+
 @media (min-width: 768px) {
     .grid-image img {
         margin: 1rem;

@@ -3,6 +3,7 @@
 
 <head>
     <title>Court Circuit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="description" content="Court circuit | Le blog hors des sentiers battus. Cette page est faite grâce aux tutos du site lewagon.com">
     <meta charset="utf-8">
     <!-- Facebook Open Graph data -->
@@ -25,17 +26,23 @@
 
 <body>
     <header>
-        <ul class="menu">
-            <li id="logo"><a href="index.html"><i class="fab fa-angellist"></i> COURT CIRCUIT</a></li>
-            <li><a href="second_page.html">ABOUT ME</a></li>
-            <li><a href="third_page.html">TRAVELS</a></li>
-            <li><a href="#">CULTURE</a></li>
-            <li><a href="#">INSOLITE</a></li>
-        </ul>
+        <nav class="main-navigation">
+            <div class="nav-wrapper">
+                <input type="checkbox" id="menu-checkbox" class="menu-checkbox"/>
+                <label for="menu-checkbox" class="menu-toggle">≡ Menu</label>
+                <ul class="menu">
+                    <li id="logo"><a href="index.html"><i class="fab fa-angellist"></i> COURT CIRCUIT</a></li>
+                    <li><a href="second_page.html">ABOUT ME</a></li>
+                    <li><a href="third_page.html">TRAVELS</a></li>
+                    <li><a href="#">CULTURE</a></li>
+                    <li><a href="#">INSOLITE</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
     <div class="banner hero-main">
-        <div class="container">
+        <div class="hero-content-container">
             <h1>Court circuit</h1>
             <h2>Le blog hors des sentiers battus</h2>
             <a href="#" class="btn-blue">Découvrir</a>
@@ -54,12 +61,12 @@
         </div>
         <h2>Derniers articles</h2>
         <div class="grid-image">
-            <a href="third_page.html"><img src="assets/sea.jpg" alt="sea pic" class="image"></a>
-            <a href="third_page.html"><img src="assets/taxi-red.jpg" alt="red raxi pic" class="image"></a>
-            <a href="third_page.html"><img src="assets/japan-street.jpg" alt="japan street pic" class="image"></a>
-            <a href="third_page.html"><img src="assets/erol-ahmed-255854-unsplash.jpg" alt="" class="image"></a>
-            <a href="third_page.html"><img src="assets/portugal-lifestyle.jpg" alt="" class="image"></a>
-            <a href="third_page.html"><img src="assets/simone-hutsch-679170-unsplash.jpg" alt="Street-art à Berlin" class="image"></a>
+            <img src="assets/sea.jpg" alt="Voyage à porto">
+            <img src="assets/taxi-red.jpg" alt="Voyage à Kyoto">
+            <img src="assets/japan-street.jpg" alt="Voyage">
+            <img src="assets/erol-ahmed-255854-unsplash.jpg" alt="">
+            <!-- <img src="assets/portugal-lifestyle.jpg" alt="">
+            <img src="assets/simone-hutsch-679170-unsplash.jpg" alt="Street-art à Berlin"> -->
         </div>
 
         <!-- Footer -->

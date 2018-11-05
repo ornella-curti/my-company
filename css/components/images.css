@@ -25,6 +25,16 @@
     height: 400px;
 }
 
+/*HOVER IMAGE*/
+
+.image {
+  transition: .4s ease;
+}
+
+.image:hover {
+  opacity: 0.6;
+}
+
 /*About me section*/
 .infos-flex {
     display: flex;

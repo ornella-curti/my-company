@@ -58,5 +58,5 @@ h2+.btn-blue {
 /* Mobile display */
 @media (max-width: 760px) {
     .btn-blue {
-        margin: 2rem 2rem;
+        margin-left: 0;
     }
